@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/takahashihodaka/HerokuNetworkTest#readme",
   "dependencies": {
+    "connect-redis": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
     "ejs": "^3.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.17.3"
   }
 }
