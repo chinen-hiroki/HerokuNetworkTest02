@@ -3,7 +3,7 @@
 const express = require('express')
 const router = require('./module/router')
 const app = express()
-const portForDev = 4000
+const portForDev = 4001
 
 const expressSession = require('express-session')
 const RedisStore = require('connect-redis')(expressSession)
